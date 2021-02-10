@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0;
+    font-family: 'Montserrat',sans-serif;
+}
+
+header{
+
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: flex-start;
+    position: fixed;
+
+}
+
+.header_leftcorner{
+
+    width: 70%; 
+   display: flex;
+   flex-direction: row;
+   
+   
+   ;
+}
+.logo{
+    width: 20%;
+    height: 48px;
+    margin-left: 30px;
+
+}
+.header_right_containt{
+    width: 40%;
+    height: 38px;
+    margin-top: 10px;
+    
+}
+
+.header_leftcorner ul{
+
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    
+   
+    
+}
+
+.header_leftcorner ul li{
+    width: 56px;
+    height: 18px;
+    text-decoration: none;
+    border: 1px solid white;
+    box-shadow: 2px;
+    justify-content: center;
+    color:#000000;
+    text-align: center;
+    box-shadow: 2px 2px;
+    border-radius: 15px;
+}
+
+.header_leftcorner ul li:hover{
+    color:#0186FF;
+}
+
+#about{
+
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 15px;
+    padding: 5px;    
+}
+
+#privacy{
+
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 15px;
+    padding: 5px; 
+}
+
+#contact{
+
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+    margin-right: 15px;
+    padding: 5px; 
+    font-weight: bold;
+}
+
+.header_rightcorner{
+    width: 40%;
+    height: 28px;
+    margin-top: 15px;
+    /* background-color: aliceblue; */
+}
+
+.header_rightcorner ul{
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-weight: bold;
+    
+}
+
+.header_right_corner .india_img{
+    width: 40%;
+    height: 48px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.header_rightcorner h4{
+    font-size: 10px;
+    font-weight: bolder;
+    padding-right: 15px;
+    margin-top: 4px;
+}
+
+
+    
+.footer{
+    bottom:0;
+    width: 100%;
+    height: 100px;
+    position: fixed;        
+    background: #ffffff;
+    border: 1px solid #e9ecef;
+    padding: 12px 0;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.footer .footer_qmamu_img{
+    width: 20%;
+    
+    text-align: start;
+    
+    margin: 20px;
+    padding: 10px;
+}
+
+.footer_center_contain{
+
+   
+    width: 50%;
+    height: 100px;
+    list-style: none;
+    padding-top: 12px;
+    margin-bottom: 50px;
+}
+
+
+.footer_social ul li{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background:#f8f9fa;
+    border: 2px solid #e9ecef;
+    border-radius: 13px;
+    box-shadow: 3px 2px 2px;
+}
+
+.social{
+    width: 90%;
+    height: 0px;
+    display: flex;
+    flex-direction: row;
+    padding: 22px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+
+
+#facebook{
+
+    padding: 10px;
+    font-size: 10px;
+    margin: 5px;
+    color: #0186FF;
+}
+
+#twitter{
+
+    padding: 10px;
+    font-size: 10px;
+    margin: 5px;
+    color: #0186FF;   
+    
+}
+
+#linkedin{
+
+    padding: 10px;
+    font-size: 10px;
+    margin: 5px;
+    color: #0186FF; 
+}
+
+#instagram{
+
+    padding: 10px;
+    font-size: 10px;
+    margin: 5px;
+    color: #0186FF;
+}
+
+#about{
+    color: black;
+}
+
+#privacy{
+    color: black;
+}
+
+#contact{
+    color: black;
+}
+
+.info{
+    
+    display: flex;
+    height: 30px;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.fotter_right_containt h4{
+
+    width: 350px;
+    height: 80px;
+    padding-top: 40px;
+    color: #000000;
+    text-align: right
+    
+}

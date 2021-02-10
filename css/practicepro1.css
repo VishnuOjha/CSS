@@ -1,0 +1,49 @@
+#heading{
+
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#heading1{
+    padding: 10px;
+    text-align: center;
+    color: #64dfdf;
+    font-size: 50px;
+    
+}
+
+.search{
+
+    text-align: center;
+}
+
+#discovery{
+    padding: 10px;
+    font-size: 15px;
+    color:#64dfdf;
+}
+
+#images{
+    padding: 10px;
+    font-size: 15px;
+    color:#64dfdf;
+}
+
+#videos{
+    padding: 10px;
+    font-size: 15px;
+    color:#64dfdf;
+}
+
+#news{
+    padding: 10px;
+    font-size: 15px;
+    color:#64dfdf;
+}
+
+#shopping{
+    padding: 10px;
+    font-size: 15px;
+    color:#64dfdf;
+}

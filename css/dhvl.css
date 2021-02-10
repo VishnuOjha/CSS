@@ -1,0 +1,53 @@
+*{
+
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.container h2{
+
+    padding-right: 20px;
+    font-size: 50px;
+    border: 1px solid black;
+    border: none;
+
+}
+
+.container h2:hover{
+
+        background:linear-gradient(to right,aquamarine,aqua);
+        color: black;
+        padding: 20px;
+        border-radius: 50px;
+        box-shadow: 10px 10px 10px aqua,
+                    -10px -10px 10px aquamarine;
+}
+
+.container H4{
+
+    padding: 20PX;
+    padding-top: 14px;
+    /* border: 1px solid black; */
+
+    /* padding-right: 250px; */
+}
+
+.container .hobbies ul {
+
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+}

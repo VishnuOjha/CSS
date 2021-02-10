@@ -1,0 +1,115 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: aqua;
+    width: 100%;
+    /* max-height: 150px; */
+
+}
+
+.container
+    {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        position: relative;
+    }
+.header_searchbox{
+    float: left;
+    width: 22%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    position: relative;
+    float: right;
+    /* background-color: aqua; */
+}
+
+.fb_image{
+
+    padding-top: 14px;
+    
+}
+
+.header_search_box input{
+
+    padding-left:45px;
+    width: 150px;
+    height: 45px;
+    margin-top: 15px;
+    border-radius: 50px;
+    border-style: none;
+    outline: none;
+    border: 2px solid #aaa;
+    /* border: none; */
+}
+
+.header_search_box i{
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.header_search_box input:active{
+
+    border-color: #9ba4b4;
+}
+
+.header_search_box input:hover{
+
+    box-shadow: 8px 8px 8px #9ba4b4,
+                -8px -8px 8px #ffff;
+    transition: all 0.6s ease-out 0.1s;
+}
+
+.social_center_info{
+
+    display: flex;
+}
+
+.social_center_info ul{
+
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+}
+
+.social_center_info ul li{
+    float: left;
+    height: 50px;
+    width: 50px;
+    padding-left: 30px;
+    border: 1px solid black;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+}
+
+.header_profile{
+
+    border: 1px solid gray;
+}
+
+.right_corner{
+
+    padding-left: 50px;
+}
+.header_right_info .right_corner ul {
+
+    list-style: none;
+    display: flex;
+    float: right;
+
+}
