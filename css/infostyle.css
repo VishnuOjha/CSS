@@ -1,0 +1,26 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.info_graph{
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+    border-radius: 50px;
+    
+}
+   
+h2{ 
+   
+    border: 2px solid gray;
+    box-shadow: 10px 10px 10px #e6e6e6,
+    -8px -8px 10px #dddddd;
+}
