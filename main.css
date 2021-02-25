@@ -1,0 +1,19 @@
+.div_row1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.div_row2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.div_row3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.div_row4 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }

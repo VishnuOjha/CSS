@@ -1,0 +1,25 @@
+$light-color:#f4f4f4;
+$primary-color:rgba(0,0,0,1);
+// $primary-color:#a4ebf3;
+$secondary-color:#ff8700;
+
+
+
+// Set text color using  Function
+
+@function set-text-color($color){
+        @if(lightness($color)>70){
+            @return #000;
+        }
+        @else{
+            @return #fff;
+        }
+}
+
+
+// Mixin of background color & text color
+
+@mixin set-background($color){
+    background-color: $color;
+    color: set-text-color($color);
+}

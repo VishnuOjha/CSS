@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.container {
+  max-width: 1100px;
+  padding: 0 30px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.container span {
+  color: #ff8700;
+}
+
+.prm-btn, .scd-btn {
+  padding: 8px 20px;
+  margin: 3px;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.prm-btn:hover, .scd-btn:hover {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+  cursor: pointer;
+}
+
+.prm-btn {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.scd-btn {
+  background-color: #ff8700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #f4f4f4;
+  line-height: 1.6;
+}
+
+img {
+  width: 100%;
+}
+
+.showcase {
+  background-color: black;
+  color: #fff;
+  height: 600px;
+}
+
+.showcase nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.showcase h1 {
+  font-size: 30px;
+}
+
+.showcase ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.showcase li {
+  padding-left: 15px;
+}
+
+.showcase a {
+  color: #fff;
+  font-weight: 500;
+}
+
+.showcase a:hover {
+  color: #ff8700;
+}
+
+.showcase-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.showcase-content img {
+  margin-top: 80px;
+  width: 50%;
+}
+
+.showcase-content h1 {
+  font-size: 50px;
+  line-height: 1.5;
+}
+
+.showcase-content p {
+  margin: 10px 20px 15px 0;
+}
+
+@media (max-width: 768px) {
+  .showcase {
+    height: 400px;
+  }
+  .showcase-content {
+    text-align: center;
+  }
+  .showcase-content img {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

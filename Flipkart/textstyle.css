@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(to right, white 0%,white 50% ,black 50%, black 100% );
+}   
+
+h1{
+    color:;
+    white-space:nowrap;
+    
+    transform: translate(50,50);
+}

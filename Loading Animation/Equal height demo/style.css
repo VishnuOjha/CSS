@@ -1,0 +1,36 @@
+*{
+    margin: 0;;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: #4a4a4a;
+}
+
+.container .box{
+    width: 600px;
+    margin: 140px auto;
+    background: #fff;
+    display: table;
+}
+
+.box-row{
+    display: table-row;
+}
+
+.box-cell{
+    display: table-cell;
+    width: 50%;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.container .box .box-cell.box1{
+    background: aqua;
+}
+
+.container .box .box-cell.box2{
+    background: aquamarine;
+}

@@ -1,0 +1,28 @@
+
+// Inheritance In css
+
+%btn{
+    padding: 8px 20px;
+    margin: 3px;
+    border: none;
+    border-radius:5px;
+    display:inline-block;
+    font-weight:500;
+
+    &:hover{
+        transform:scale(0.98);
+        cursor:pointer;
+    }
+}
+
+// Using inheritance by extend keyword              
+.prm-btn{
+    @extend %btn;
+   @include set-background(lighten($primary-color,10%));
+//    color:set-text-color($primary-color);
+}
+
+.scd-btn{
+    @extend %btn;
+    background-color: $secondary-color;
+}
