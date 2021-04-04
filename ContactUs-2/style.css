@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 1px solid #fff; */
+  overflow: hidden;
+}
+
+body {
+  background:linear-gradient(270deg, #000,#000,rgb(0, 0, 0));
+  color: #fff;
+}
+
+.cont-left {
+  flex-basis: 70%;
+  /* background: linear-gradient(to left, #200122, #6f0000); */
+}
+
+.cont-right {
+  flex-basis: 30%;
+  margin: 0px 0 0 0;
+  transition: all 0.5s;
+  padding-left: 20px;
+  /* background: linear-gradient(to right, #200122, #6f0000); */
+}
+
+.bg-img {
+  background: url(./Group\ 41311.svg);
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  /* margin-bottom: 30px; */
+}
+
+.contatc-us-box{
+  margin-top: 140px;
+  width: 80%;
+  height: 100%;
+  display: inline-block;
+  align-items: center;
+   justify-content: center; 
+   transition: all 0.5s;
+}
+
+.contatc-us-box div{
+  display: flex;
+  flex-direction: column ;
+  align-items: flex-start;
+  justify-content: flex-start;
+  transition: all 0.5s;
+  /* padding-left: 80px; */
+  
+  /* text-align: center; */
+}
+
+.contatc-us-box h2{
+  font-size: 2rem;
+  /* text-align: ; */
+  width: 100%;
+  padding-bottom: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  transition: all 0.5s;
+}
+
+label{
+  padding: 3px 15px;
+  font-size: 1.2rem;
+  transition: all 0.5s;
+}
+
+input{
+  width: 100%;
+  padding: 12px 12px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  outline: none;
+  border: none;
+  border-radius: 18px;
+  font-weight: 500;
+  transition: all 0.5s;
+}
+
+textarea{
+  width: 100%;
+  padding: 12px 20px;
+  overflow: hidden;
+  border-radius: 18px;
+  outline: none;
+  transition: all 0.5s;
+}
+
+button{
+  margin-top: 20px;
+  padding: 8px 30px;
+  border-radius: 20px;
+  outline: none;
+  font-size:1rem ;
+  transition: all 0.5s;
+}
+@media (max-width:1200px){
+
+  .container{
+    width: 100%;
+    display: flex;
+    transition: all 0.5s;
+  }
+
+  .cont-left{
+    flex-basis: 60%;
+    transition: all 0.5s;
+   
+  }
+  .cont-right{
+    flex-basis: 40%;
+    padding-left: 50px;
+    transition: all 0.5s;
+  }
+  .contatc-us-box h2{
+    font-size: 1.9rem;
+    transition: all 0.5s;
+  }
+  .bg-img{
+    
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+ 
+  }
+
+  
+label{
+  font-size: 1rem;
+  transition: all 0.5s;
+}
+
+textarea{
+  width: 100%;
+  padding: 6px 15px;
+  overflow: hidden;
+  border-radius: 18px;
+  outline: none;
+  transition: all 0.5s;
+}
+
+button{
+  padding: 8px 25px;
+  font-size:1rem ;
+  transition: all 0.5s;
+}
+  
+
+}
+@media(max-width:768px){
+  .cont-left{
+    display: none;
+    transition: all 0.5s;
+    
+  }
+  .container{
+    width: 100%;
+    display: block;
+    padding: 0 40px;
+    transition: all 0.5s;
+  }
+
+  .contatc-us-box h2{
+    font-size: 2rem;
+    transition: all 0.5s;}
+
+    label{
+      font-size: 1.3rem;
+      transition: all 0.5s;
+    }
+
+    button{
+      font-size: 1.2rem;
+      transition: all 0.5s;
+    }
+   
+}
