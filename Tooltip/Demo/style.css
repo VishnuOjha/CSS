@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.container{
+    width:100%;
+}
+.nav-bar{
+    height: 60px;
+    background: #000;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+    
+}
+.nav-img{
+    margin-left: 50px;
+}
+
+
+.nav-list ul{
+    width: auto;
+    margin-right:80px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.nav ul li{
+    position: relative;
+}
+
+.nav-list ul li a{
+    text-decoration: none;
+    padding: 15px;
+    width: 180px;
+    /* text-transform: uppercase; */
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: all .5s;
+    color: #fff;
+    outline: none;
+}
+
+#special-offer{
+    color: gold;
+    text-transform: uppercase;
+}
+.nav-info-1:hover{
+    color: darkgray;
+    transition: all 0.5s;
+}
+
+.nav-info-1{
+    text-transform: uppercase;
+}
+
+.nav-list ul li a .fa{
+    margin-left: 5px;;
+}
+
+.nav-userinfo{
+    padding-left:50px;
+}
+
+.nav-userinfo a{
+    text-decoration: none;
+    padding: 15px;
+    width: 180px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #fff;
+    transition: all .5s;;
+    outline: none;
+}
+
+.nav-userinfo a:hover{
+    color: darkgray;
+    transition: all 0.5s;
+}
+
+.nav-userinfo  i{
+    padding-right: 5px;
+}
+
+.sub-menu-1{
+ display: none;   
+}
+
+.nav-list ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: #343a40;;
+    margin-top: 16px;
+    margin-left: -15px;
+}
+
+.sub-menu-1 ul{
+    display: block;
+    width:  100%;   
+}
+
+.sub-menu-1 ul li{
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+.sub-menu-1 ul li a{
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.sub-menu-1 ul li a i{
+    float:right;
+    padding-right: 10px;
+}
+
+button{
+    width: 100%;
+    background-color: #343a40;;
+    text-align: start;
+    outline: none;
+    color: #fff;
+    height: 60px;
+    border: none;
+    
+}
+
+button:hover {
+    background:#6c757d
+}
+
+.sub-menu-2{
+    display: none;
+}
+
+.sub-menu-1:hover .sub-menu-2{
+    display: block;
+    position: absolute;
+    left: 100%;
+}
